@@ -10,7 +10,7 @@
 }
 
 #im{
-    width: 200%;
+    width: 250%;
 }
 
 #icone{
@@ -51,6 +51,8 @@ nav a{
     border-bottom: 2px solid #222;
     opacity: 0;
     margin-top: 200px; 
+    margin-bottom: 3px;
+    margin-top: 3px;
 
 }
 
