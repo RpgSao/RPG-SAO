@@ -9,6 +9,11 @@
     display: none;
 }
 
+#icoM{
+    width:20%;
+    
+}
+
 #icone{
     cursor: pointer;
     padding: 15px;
