@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Css para Menu*/
+
+#check{
+    display: none;
+}
+
+#im{
+    width: 250%;
+}
+
+#icone{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.barra{
+    background-color: rgba(051,051,051,100%);
+    height: 100%;
+    width:30%;
+    position: absolute;
+    transition: all .2s linear;
+    left: -500px;
+}
+
+nav{
+    width: 100%;
+    position:absolute;
+    top:60px;
+}
+
+nav a{
+    text-decoration: none;
+
+
+}
+
+.link{
+    background-color:  rgba(040,041,035,70%);;
+    padding: 20px;
+    font-family: 'arial';
+    font-size: 40px;
+    transition: all .2s linear; 
+    color: #f4f4f9;
+    border-bottom: 2px solid #222;
+    opacity: 0;
+    margin-top: 200px; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.link:hover{
+    background-color: #050542;
+}
+
+#check:checked ~ .barra{
+
+    transform: translateX(500px);
+
+}
+
+#check:checked ~ .barra nav a .link{
+
+    opacity: 1;
+    margin-top: 0;
+    transition-delay: .2s;
+
+   
+
+}
+
+/*Fim menu*/
+
+/*Estilo da home*/
+
+a#ai{
+    color: yellow;
+    text-decoration: none;
+}
+
+a#ai:hover{
+    color: rgb(230,219,116);
+}
+
+body#home{
+    background: url("Fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+div#corpo{
+    color: white;
+    position: center;
+    margin-left: 290px;
+    width:50%;
+}
+
+#corpo p{
+    text-align: justify;
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+#corpo h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+
+/*Fim estilo home*/
+
+/*Estilo da regra*/
+
+body#regras{
+    background: url("Fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+div#corpoR{
+    color: white;
+    position: center;
+    margin-left: 290px;
+    width:50%;
+}
+
+#corpoR p{
+    text-align: justify;
+    padding-top: 10px;
+    font-size: 22px;
+    color:red;
+}
+
+#corpoR h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 24px;
+    
+}
+
+
+/*Fim estilo regra*/
